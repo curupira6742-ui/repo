@@ -1,0 +1,13 @@
+{
+  "name": "gemini-bw-agent",
+  "version": "2.0.0",
+  "description": "Agente local Gemini Pro/Antigravity multi-conta com acesso total ao sistema de arquivos",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "npx @electron/packager . \"Gemini-BW-Agent\" --platform=win32 --arch=x64 --icon=icon.ico --out=dist --overwrite --asar"
+  },
+  "dependencies": {
+    "electron": "^33.2.0"
+  }
+}
